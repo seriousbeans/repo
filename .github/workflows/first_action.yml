@@ -47,6 +47,6 @@ jobs:
       windows-latest
 
     steps:
-      name: deploy to server
-      run: echo "deploying to server"
+      - name: deploy to server
+      - run: echo "deploying to server"
 

@@ -5,5 +5,3 @@ string = "i said no"
 string = "no"
 string = "i told you you cunt"
 
-def test_func():
-    assert True

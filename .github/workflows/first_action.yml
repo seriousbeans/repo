@@ -41,7 +41,7 @@ jobs:
   deploy:
 
     needs:
-      test
+      build
 
     runs-on:
       windows-latest

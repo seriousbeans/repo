@@ -38,3 +38,11 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+  deploy:
+
+    runs-on: windows-latest
+
+    steps:
+      name: deploy to server
+      run: echo "deploying to server"
+
